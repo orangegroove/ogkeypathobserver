@@ -1,0 +1,14 @@
+PODS:
+  - OGKeyPathObserver (0.1.0)
+
+DEPENDENCIES:
+  - OGKeyPathObserver (from `../`)
+
+EXTERNAL SOURCES:
+  OGKeyPathObserver:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OGKeyPathObserver: 986c16e49a892d9c5da1753f249e23e415f1a755
+
+COCOAPODS: 0.34.4

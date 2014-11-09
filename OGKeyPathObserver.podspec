@@ -10,29 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "OGKeyPathObserver"
   s.version          = "0.1.0"
-  s.summary          = "A short description of OGKeyPathObserver."
+  s.summary          = "Simple, no-fuss KVO decorator."
   s.description      = <<-DESC
-                       An optional longer description of OGKeyPathObserver
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        Simple library that wraps KVO with a block syntax and automatic observer removal.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/OGKeyPathObserver"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/orangegroove/OGKeyPathObserver"
   s.license          = 'MIT'
-  s.author           = { "Jesper" => "jesper.skrufve@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/OGKeyPathObserver.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'OGKeyPathObserver' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.author           = { "Jesper" => "jesper@orangegroove.net" }
+  s.source           = { :git => "https://github.com/orangegroove/OGKeyPathObserver.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/jskrufve'
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.source_files     = 'Pod/Classes'
+  s.frameworks       = 'Foundation'
 end
