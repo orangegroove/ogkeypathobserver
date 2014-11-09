@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'OGKeyPathObserver', :exclusive => true do
+  pod "OGKeyPathObserver", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "OGKeyPathObserver", :path => "../"
+
+  
+end
