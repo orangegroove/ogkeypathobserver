@@ -4,7 +4,7 @@ Simple library that wraps KVO with a block syntax and automatic observer removal
 
 ## Usage
 
-Instantiate an an OGKeyPathObserver and keep a strong reference to the object. Whenever the reference is dropped, all kvo observers will be removed. See the header file for usage.
+Instantiate an OGKeyPathObserver and keep a strong reference to the object. Whenever the reference is dropped, all kvo observers will be removed. See the header file for usage.
 
 ## Installation
 
